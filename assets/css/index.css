@@ -35,15 +35,21 @@ body {
 
 .left{
     flex: 0 1 400px;
+    transition-property: transform;
+    transition-duration: 1s;
 }
 .right{
     flex: 0 1 900px;
+    transition-property: transform;
+    transition-duration: 1s;
     
 }
 
 .left:hover{
-    transform: translateY(-9px);
-    transition: 0.5s all;
+    transform: rotate(3deg)
+}
+.right:hover{
+    transform: rotate(1deg);
 }
 /*------------top-----------------*/
 
