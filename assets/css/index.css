@@ -1,10 +1,118 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     background-color: #eee;
-    margin: 0 auto;
+    margin: 4px auto;
 }
-.main-text{
-    font-weight: 900;
+
+.container {
+    padding: 10px;
+
+    font-family: 'VT323', monospace;
+    background-color: #a9beb0;
+    color: white;
 }
+.container h1{
+    font-size: 70px;
+}
+
+
+/*------------top-----------------*/
+.flex-containerTop{
+    display: flex;
+    
+}
+
+.boxTop {
+    height: 130px;
+    margin: 6px;
+    
+    background-color: #EAE7B1;
+    border-radius: 7px;
+}
+
+.left{
+    flex: 0 1 400px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.right{
+    flex: 0 1 900px;
+    transition-property: transform;
+    transition-duration: 1s;
+    
+}
+
+.left:hover{
+    transform: rotate(3deg)
+}
+.right:hover{
+    transform: rotate(1deg);
+}
+/*------------top-----------------*/
+
+
+
+
+/*------------middle-----------------*/
+.flex-containerMiddle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxMiddle{
+    height: 130px;
+    margin: 6px;
+
+    background-color: #EAE7B1;
+    border-radius: 7px;
+}
+
+.oneMiddle{
+    flex: 0 1 250px;
+}
+.twoMiddle{
+    flex: 0 1 250px;
+    
+}
+.threeMiddle{
+    flex: 0 1 250px;
+    
+}
+.fourMiddle{
+    flex: 0 1 250px;
+    
+}
+.fiveMiddle{
+    flex: 0 1 400px;
+
+}
+/*------------middle-----------------*/
+
+
+
+/*------------bottom-----------------*/
+.flex-containerBottom{
+    display: flex;
+}
+
+.boxBottom{
+    height: 370px;
+    margin: 6px;
+
+    border-radius: 7px;
+    background-color: #EAE7B1;
+}
+
+.oneBottom{
+    flex: 0 1 300px;
+}
+.twoBottom{
+    flex: 0 1 613px;
+}
+.threeBottom{
+    flex: 0 1 350px;
+}
+/*------------bottom-----------------*/
